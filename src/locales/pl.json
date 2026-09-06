@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "menu": "Menu",
+    "expertise": "Umiejętności",
+    "history": "Historia",
+    "projects": "Projekty"
+  },
+  "main": {
+    "role": "Backend Developer"
+  },
+  "expertise": {
+    "title": "Umiejętności",
+    "fullstack": {
+      "title": "Full Stack Web Development",
+      "description": "Tworzę aplikacje webowe i boty Telegram dla ponad 100 firm. Działam na rynku od ponad 5 lat i wiem, jak rozwiązywać każde zadanie biznesowe. Realizuję frontend i backend w React/Vue + FastAPI/Django oraz profesjonalnie pracuję z PostgreSQL/MySQL i Redis/MongoDB."
+    },
+    "devops": {
+      "title": "DevOps i automatyzacja",
+      "description": "Tworzyłem automatyzację dla ponad 50 firm na całym świecie — moje rozwiązania zaoszczędziły klientom $60k+. Profesjonalnie znam CI/CD i Docker, a każdy projekt doprowadzam do wdrożenia na serwerze VPS lub dedykowanym. Mój stack: Playwright/Selenium, userboty do automatyzacji kont oraz niezawodne obchodzenie zabezpieczeń Captcha i Cloudflare."
+    },
+    "genai": {
+      "title": "Integracja AI",
+      "description": "Integrowałem AI w projektach w rolach analityków danych, asystentów biznesowych i menedżerów wsparcia. Profesjonalnie buduję architektury RAG: podłączam LLM do systemów CRM i baz wiedzy firmy, aby uzyskiwać dokładne odpowiedzi bez halucynacji. Mój stack: OpenAI/Claude API, LangChain/LlamaIndex, bazy wektorowe (ChromaDB/Pinecone/Qdrant) oraz integracja z backendem."
+    },
+    "techStack": "Stack:"
+  },
+  "timeline": {
+    "title": "Historia kariery",
+    "consultant": {
+      "title": "Konsultant technologiczny",
+      "location": "Dallas, Teksas",
+      "date": "2022 - obecnie",
+      "description": "Full-stack Web Development, GenAI/LLM, zarządzanie projektami, rozwój biznesu"
+    },
+    "fullstack": {
+      "title": "Inżynier Full Stack",
+      "location": "Laie, Hawaje",
+      "date": "2020 - 2022",
+      "description": "Frontend Development, Backend Development, User Experience, Kierowanie zespołem"
+    },
+    "intern": {
+      "title": "Stażysta Staff Engineer",
+      "location": "Laie, Hawaje",
+      "date": "2021 - 2021",
+      "description": "Full-stack Development, rozwój API, User Experience"
+    },
+    "analyst": {
+      "title": "Stażysta analityk danych",
+      "location": "Tokio, Japonia",
+      "date": "2020 - 2020",
+      "description": "Automatyzacja, zarządzanie danymi, analiza statystyczna"
+    }
+  },
+  "projects": {
+    "title": "Projekty osobiste",
+    "prompty": {
+      "title": "Prompty — strona do nauki inżynierii promptów",
+      "description": "Prompty to interaktywny asystent oparty na Pythonie, który uczy użytkowników tworzenia skutecznych, zoptymalizowanych pod modele promptów AI do zadań programistycznych, kreatywnych i edukacyjnych."
+    },
+    "p2p": {
+      "title": "P2P platforma internetowa wymiany walut",
+      "description": "Zbudowałem bezpieczną, wielojęzyczną aplikację webową P2P do wymiany walut (FastAPI, React, MySQL) z kursami na żywo i przetwarzaniem zamówień w czasie rzeczywistym."
+    },
+    "coinscraper": {
+      "title": "Parser danych tokenów kryptograficznych i pipeline analityki rynkowej",
+      "description": "Automatyczne narzędzie w Pythonie, które śledzi metryki rynku kryptowalut, filtruje tokeny niskiej jakości i przesyła dane inwestycyjne w czasie rzeczywistym do Google Sheets."
+    },
+    "tradeBot": {
+      "title": "Bot Telegram do analizy handlu",
+      "description": "Bot Telegram w Pythonie (Aiogram 3, Aiohttp, SQLite) zapewniający śledzenie transakcji bez opóźnień przez prywatne API, automatyczną analitykę i symulacje handlu papierowego."
+    },
+    "poBot": {
+      "title": "Automatyczny bot do handlu opcjami binarnymi",
+      "description": "Autonomiczny bot handlowy w Pythonie (Aiogram, WebSockets, MySQL) z szybkim skanowaniem rynku wielu par, automatycznym wykonywaniem opartym na wskaźnikach i mobilnym panelem sterowania w Telegramie."
+    },
+    "olxBot": {
+      "title": "Przetwarzanie ogłoszeń z OLX",
+      "description": "Bot Telegram w czasie rzeczywistym, który przetwarza ogłoszenia OLX na podstawie niestandardowych filtrów ceny, kategorii i miasta, dostarczając natychmiastowe powiadomienia z kluczowymi szczegółami ogłoszeń i danymi kontaktowymi sprzedawcy."
+    },
+    "lardiTrans": {
+      "title": "Przetwarzanie przewoźników z Lardi-Trans",
+      "description": "Konfigurowalny parser, który pobiera dane kontaktowe przewoźników z Lardi-Trans w wybranych krajach, automatycznie aktualizując i dodając rekordy w Google Sheets."
+    }
+  },
+  "footer": {
+    "text": "Z niecierpliwością czekam na owocną współpracę ;)"
+  }
+}

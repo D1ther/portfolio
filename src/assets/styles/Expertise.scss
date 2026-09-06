@@ -18,7 +18,25 @@
 .skills-container .skills-grid .skill {
     align-items: center;
     text-align: left;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Keep every skill icon and heading on the same baseline across cards */
+  .skills-container .skills-grid .skill > svg,
+  .skills-container .skills-grid .skill > .svg-inline--fa {
+    display: block;
+    vertical-align: baseline;
+    margin-bottom: 0.5rem;
+  }
+
+  .skills-container .skills-grid .skill h3 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    line-height: 1.3;
+    min-height: 3.9em; /* reserve two lines so titles align across cards */
+  }
   
 .chip {
     color: rgb(39, 40, 34) !important;

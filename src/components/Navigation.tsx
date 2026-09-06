@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useTranslation } from 'react-i18next';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -17,11 +18,12 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 
 const drawerWidth = 240;
-const navItems = [['Expertise', 'expertise'], ['History', 'history'], ['Projects', 'projects'], ['Contact', 'contact']];
+const navItems = [['expertise', 'expertise'], ['history', 'history'], ['projects', 'projects']];
 
 function Navigation({parentToChild, modeChange}: any) {
 
-  const {mode} = parentToChild;
+  const { mode } = parentToChild;
+  const { t } = useTranslation();
 
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
   const [scrolled, setScrolled] = useState<boolean>(false);
@@ -59,13 +61,13 @@ function Navigation({parentToChild, modeChange}: any) {
 
   const drawer = (
     <Box className="navigation-bar-responsive" onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <p className="mobile-menu-top"><ListIcon/>Menu</p>
+      <p className="mobile-menu-top"><ListIcon/>{t('nav.menu')}</p>
       <Divider />
       <List>
         {navItems.map((item) => (
           <ListItem key={item[0]} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }} onClick={() => scrollToSection(item[1])}>
-              <ListItemText primary={item[0]} />
+              <ListItemText primary={t(`nav.${item[0]}`)} />
             </ListItemButton>
           </ListItem>
         ))}
@@ -95,7 +97,7 @@ function Navigation({parentToChild, modeChange}: any) {
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
               <Button key={item[0]} onClick={() => scrollToSection(item[1])} sx={{ color: '#fff' }}>
-                {item[0]}
+                {t(`nav.${item[0]}`)}
               </Button>
             ))}
           </Box>

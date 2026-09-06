@@ -1,58 +1,87 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faDocker } from '@fortawesome/free-brands-svg-icons';
+import OpenAIIcon from './OpenAIIcon';
+import FullStackIcon from './FullStackIcon';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
     "React",
+    "Vue",
+    "React Native",
     "TypeScript",
     "JavaScript",
     "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
-    "SQL",
+    "FastAPI",
+    "Pydantic",
+    "Redis",
+    "MongoDB",
     "PostgreSQL",
-    "Postman"
+    "MySQL",
+    "SQLAlchemy",
+    "Django",
+    "REST API",
+    "Aiogram",
+    "Telegram Mini Apps"
 ];
 
 const labelsSecond = [
+    "CI/CD",
+    "Docker",
     "Git",
     "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
+    "Playwright",
     "Selenium",
+    "Camoufox",
+    "Patchright",
+    "Crawlee",
+    "GitLab",
+    "Telethon",
+    "Kurigram",
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
     "LangChain",
-    "Qdrant",
-    "Hugging Face",
     "LlamaIndex",
-    "Streamlit",
+    "LangGraph",
+    "CrewAI",
+    "RAG",
+    "Vector Search",
+    "ChromaDB",
+    "Pinecone",
+    "Qdrant",
+    "Weaviate",
+    "FAISS",
+    "OpenAI API",
+    "Claude API",
+    "Gemini API",
+    "Ollama",
+    "Hugging Face",
+    "Sentence-Transformers",
+    "Unstructured",
+    "tiktoken",
+    "LangSmith",
+    "Langfuse",
+    "OpenRouter",
 ];
 
 function Expertise() {
+    const { t } = useTranslation();
+
     return (
     <div className="container" id="expertise">
         <div className="skills-container">
-            <h1>Expertise</h1>
+            <h1>{t('expertise.title')}</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <FullStackIcon/>
+                    <h3>{t('expertise.fullstack.title')}</h3>
+                    <p>{t('expertise.fullstack.description')}</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">{t('expertise.techStack')}</span>
                         {labelsFirst.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -61,10 +90,10 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <h3>{t('expertise.devops.title')}</h3>
+                    <p>{t('expertise.devops.description')}</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">{t('expertise.techStack')}</span>
                         {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -72,11 +101,11 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <OpenAIIcon/>
+                    <h3>{t('expertise.genai.title')}</h3>
+                    <p>{t('expertise.genai.description')}</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">{t('expertise.techStack')}</span>
                         {labelsThird.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}

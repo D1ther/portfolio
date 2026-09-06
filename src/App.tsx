@@ -1,10 +1,11 @@
 import React, {useState, useEffect} from "react";
+import { I18nextProvider } from 'react-i18next';
+import i18n from './i18n';
 import {
   Main,
   Timeline,
   Expertise,
   Project,
-  Contact,
   Navigation,
   Footer,
 } from "./components";
@@ -27,17 +28,18 @@ function App() {
       }, []);
 
     return (
-    <div className={`main-container ${mode === 'dark' ? 'dark-mode' : 'light-mode'}`}>
-        <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
-        <FadeIn transitionDuration={700}>
-            <Main/>
-            <Expertise/>
-            <Timeline/>
-            <Project/>
-            <Contact/>
-        </FadeIn>
-        <Footer />
-    </div>
+    <I18nextProvider i18n={i18n}>
+      <div className={`main-container ${mode === 'dark' ? 'dark-mode' : 'light-mode'}`}>
+          <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
+          <FadeIn transitionDuration={700}>
+              <Main/>
+              <Expertise/>
+              <Timeline/>
+              <Project/>
+          </FadeIn>
+          <Footer />
+      </div>
+    </I18nextProvider>
     );
 }
 

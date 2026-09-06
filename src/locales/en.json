@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "menu": "Menu",
+    "expertise": "Expertise",
+    "history": "History",
+    "projects": "Projects"
+  },
+  "main": {
+    "role": "Backend Developer"
+  },
+  "expertise": {
+    "title": "Expertise",
+    "fullstack": {
+      "title": "Full Stack Web Development",
+      "description": "I build web applications and Telegram bots for 100+ companies. With 5+ years on the market, I know how to solve any business challenge. I implement frontend and backend with React/Vue + FastAPI/Django and work professionally with PostgreSQL/MySQL and Redis/MongoDB."
+    },
+    "devops": {
+      "title": "DevOps & Automation",
+      "description": "I've built automation for 50+ businesses worldwide — my solutions have saved clients $60k+. I'm proficient in CI/CD and Docker and take every project through to deployment on a VPS or dedicated server. My stack: Playwright/Selenium, userbots for account automation, and reliable bypass of Captcha and Cloudflare protection."
+    },
+    "genai": {
+      "title": "AI Integration",
+      "description": "I've integrated AI into projects for roles like data analysts, business assistants, and support managers. I professionally build RAG architectures: connecting LLMs to company CRMs and knowledge bases for accurate, hallucination-free answers. My stack: OpenAI/Claude API, LangChain/LlamaIndex, vector DBs (ChromaDB/Pinecone/Qdrant), and backend integration."
+    },
+    "techStack": "Stack:"
+  },
+  "timeline": {
+    "title": "Career History",
+    "consultant": {
+      "title": "Technology Consultant",
+      "location": "Dallas, TX",
+      "date": "2022 - present",
+      "description": "Full-stack Web Development, GenAI/LLM, Project Management, Business Development"
+    },
+    "fullstack": {
+      "title": "Full Stack Engineer",
+      "location": "Laie, HI",
+      "date": "2020 - 2022",
+      "description": "Frontend Development, Backend Development, User Experience, Team Leading"
+    },
+    "intern": {
+      "title": "Staff Engineer Intern",
+      "location": "Laie, HI",
+      "date": "2021 - 2021",
+      "description": "Full-stack Development, API Development, User Experience"
+    },
+    "analyst": {
+      "title": "Data Analyst Intern",
+      "location": "Tokyo, Japan",
+      "date": "2020 - 2020",
+      "description": "Automation, Data Governance, Statistical Analysis"
+    }
+  },
+  "projects": {
+    "title": "Personal Projects",
+    "prompty": {
+      "title": "Prompty - a website for learning prompt engineering",
+      "description": "Prompty is a Python-powered interactive assistant that teaches users to write effective, model-optimized AI prompts for coding, creative, and educational tasks."
+    },
+    "p2p": {
+      "title": "P2P Currency Exchange Web Platform",
+      "description": "Built a secure, multi-language P2P currency exchange web app (FastAPI, React, MySQL) featuring live rates and real-time admin order processing."
+    },
+    "coinscraper": {
+      "title": "Crypto Token Data Parser & Market Analytics Pipeline",
+      "description": "Automated Python tool that tracks crypto market metrics, filters low-quality tokens, and streams real-time investment data to Google Sheets."
+    },
+    "tradeBot": {
+      "title": "Telegram Bot for Trading Analysis",
+      "description": "Python Telegram bot (Aiogram 3, Aiohttp, SQLite) providing zero-latency trade tracking via private APIs, automated analytics, and paper-trading simulations."
+    },
+    "poBot": {
+      "title": "Automated Binary Options Trading Bot",
+      "description": "Autonomous Python trading bot (Aiogram, WebSockets, MySQL) featuring high-speed multi-pair market scanning, automated indicator-based execution, and a mobile Telegram control panel."
+    },
+    "olxBot": {
+      "title": "Parsing ads from OLX",
+      "description": "Real-time Telegram bot that parses OLX listings based on custom price, category, and city filters, delivering instant alerts with key listing details and seller contact information."
+    },
+    "lardiTrans": {
+      "title": "Parsing carriers with Lardi-Trans",
+      "description": "Configurable parser that extracts carrier contact data from Lardi-Trans across target countries, automatically updating and appending records in Google Sheets."
+    }
+  },
+  "footer": {
+    "text": "I look forward to a fruitful collaboration ;)"
+  }
+}

@@ -15,8 +15,18 @@ code {
 
 .main-container {
   position: relative;
-  background-color: #0d1116;
+  background-color: #0e1612;
+  --social-icon-color: #E2E4E8;
+  --fh-icon-color: #ffffff;
+}
 
+/* FreelanceHunt icon: monochrome, theme-controlled.
+   font-size matches the MUI SvgIcon default (1.5rem) so em-based sizing
+   stays in sync with the Material UI icons next to it. */
+.main-container .fh-icon {
+  color: var(--fh-icon-color);
+  font-size: 1.5rem;
+  vertical-align: middle;
 }
 
 a {
@@ -24,8 +34,21 @@ a {
 }
 
 a:hover {
-  color: #5000ca;
+  color: #00c853;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+/* Social icons: keep their color on hover (no green tint) */
+.about-section .social_icons a:hover,
+.about-section .mobile_social_icons a:hover,
+footer a:hover {
+  color: #ffffff;
+}
+
+.light-mode .about-section .social_icons a:hover,
+.light-mode .about-section .mobile_social_icons a:hover,
+.light-mode footer a:hover {
+  color: #0e1612;
 }
 
 p, a, h1, h2, h3, h4, h5, label, button {
@@ -35,7 +58,7 @@ p, a, h1, h2, h3, h4, h5, label, button {
 
 .navigation-bar {
   justify-content: space-between;
-  background-color: #0d1116;
+  background-color: #0e1612;
 
   button {
     font-size: 1.1rem;
@@ -51,7 +74,7 @@ p, a, h1, h2, h3, h4, h5, label, button {
 
 .navigation-bar-responsive {
   span, p {
-    color: #0d1116;
+    color: #0e1612;
     font-family: "Lato", sans-serif;
   }
 }
@@ -94,30 +117,52 @@ p, a, h1, h2, h3, h4, h5, label, button {
 
 .light-mode {
   background-color: #f8f9fa;
+  --social-icon-color: #0e1612;
+  --fh-icon-color: #000000;
 
   .navigation-bar {
     background-color: #f8f9fa;
   }
 
   p, a, h1, h2, h3, h4, h5, label, button {
-    color: #0d1116;
+    color: #0e1612;
   }
 
   a:hover {
-    color: #5000ca;
+    color: #00c853;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
   }
 
   .navigation-bar svg {
-    color: #0d1116;
+    color: #0e1612;
   }
 
   .about-section {
+    background-image: none;
+    position: relative;
+  }
+
+  /* The green wave in bg-light.png is pale and nearly invisible on the
+     light background — boost saturation/brightness so it reads clearly. */
+  .about-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-image: url("./assets/images/bg-light.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    filter: saturate(3) brightness(0.88) contrast(1.05);
+    z-index: 0;
+    pointer-events: none;
   }
 
   .skills-container svg {
-    color: #0d1116;
+    color: #0e1612;
   }
 
   .chip {
@@ -142,7 +187,7 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 
   .flex-chips .chip-title {
-    color: #0d1116;
+    color: #0e1612;
   }
 }
 
