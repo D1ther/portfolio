@@ -25,50 +25,50 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date={t('timeline.consultant.date')}
+            date={t('timeline.trainee.date')}
             iconStyle={{ background: '#00c853', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">{t('timeline.consultant.title')}</h3>
-            <h4 className="vertical-timeline-element-subtitle">{t('timeline.consultant.location')}</h4>
+            <h3 className="vertical-timeline-element-title">{t('timeline.trainee.title')}</h3>
+            <h4 className="vertical-timeline-element-subtitle">{t('timeline.trainee.location')}</h4>
             <p>
-              {t('timeline.consultant.description')}
+              {t('timeline.trainee.description')}
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={t('timeline.fullstack.date')}
+            date={t('timeline.junior.date')}
             iconStyle={{ background: '#00c853', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">{t('timeline.fullstack.title')}</h3>
-            <h4 className="vertical-timeline-element-subtitle">{t('timeline.fullstack.location')}</h4>
+            <h3 className="vertical-timeline-element-title">{t('timeline.junior.title')}</h3>
+            <h4 className="vertical-timeline-element-subtitle">{t('timeline.junior.location')}</h4>
             <p>
-              {t('timeline.fullstack.description')}
+              {t('timeline.junior.description')}
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={t('timeline.intern.date')}
+            date={t('timeline.middle.date')}
             iconStyle={{ background: '#00c853', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">{t('timeline.intern.title')}</h3>
-            <h4 className="vertical-timeline-element-subtitle">{t('timeline.intern.location')}</h4>
+            <h3 className="vertical-timeline-element-title">{t('timeline.middle.title')}</h3>
+            <h4 className="vertical-timeline-element-subtitle">{t('timeline.middle.location')}</h4>
             <p>
-              {t('timeline.intern.description')}
+              {t('timeline.middle.description')}
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={t('timeline.analyst.date')}
+            date={t('timeline.lead.date')}
             iconStyle={{ background: '#00c853', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">{t('timeline.analyst.title')}</h3>
-            <h4 className="vertical-timeline-element-subtitle">{t('timeline.analyst.location')}</h4>
+            <h3 className="vertical-timeline-element-title">{t('timeline.lead.title')}</h3>
+            <h4 className="vertical-timeline-element-subtitle">{t('timeline.lead.location')}</h4>
             <p>
-              {t('timeline.analyst.description')}
+              {t('timeline.lead.description')}
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

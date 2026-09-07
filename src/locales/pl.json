@@ -26,29 +26,29 @@
   },
   "timeline": {
     "title": "Historia kariery",
-    "consultant": {
-      "title": "Konsultant technologiczny",
-      "location": "Dallas, Teksas",
-      "date": "2022 - obecnie",
-      "description": "Full-stack Web Development, GenAI/LLM, zarządzanie projektami, rozwój biznesu"
+    "trainee": {
+      "title": "Stażysta Backend Developer",
+      "location": "Lwów, Ukraina",
+      "date": "2019 – 2020",
+      "description": "Tworzenie REST API, backendu aplikacji webowych, automatyzacja zbierania danych, praca z bazami SQL"
     },
-    "fullstack": {
-      "title": "Inżynier Full Stack",
-      "location": "Laie, Hawaje",
-      "date": "2020 - 2022",
-      "description": "Frontend Development, Backend Development, User Experience, Kierowanie zespołem"
+    "junior": {
+      "title": "Junior Backend Developer",
+      "location": "Lwów, Ukraina",
+      "date": "2020 – 2021",
+      "description": "Usługi oparte na FastAPI/Django, komercyjne boty Telegram, cache w Redis, praca z Dockerem"
     },
-    "intern": {
-      "title": "Stażysta Staff Engineer",
-      "location": "Laie, Hawaje",
-      "date": "2021 - 2021",
-      "description": "Full-stack Development, rozwój API, User Experience"
+    "middle": {
+      "title": "Middle Automation & Backend Engineer",
+      "location": "Zdalnie, Europa",
+      "date": "2021 – 2024",
+      "description": "Kompleksowa automatyzacja procesów biznesowych, wydajny web-parsing z obchodzeniem zabezpieczeń, userboty, konfiguracja CI/CD"
     },
-    "analyst": {
-      "title": "Stażysta analityk danych",
-      "location": "Tokio, Japonia",
-      "date": "2020 - 2020",
-      "description": "Automatyzacja, zarządzanie danymi, analiza statystyczna"
+    "lead": {
+      "title": "AI & Automation Solutions Engineer",
+      "location": "Zdalnie, Global",
+      "date": "2024 – obecnie",
+      "description": "Integracja LLM i budowa systemów RAG, aplikacje Telegram Mini Apps, full-stack web development, autonomiczne agenty AI"
     }
   },
   "projects": {

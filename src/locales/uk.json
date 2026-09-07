@@ -12,7 +12,7 @@
     "title": "Навички",
     "fullstack": {
       "title": "Full Stack веб-розробка",
-      "description": "Розробляю веб-застосунки та Telegram-ботів для 100+ компаній. Працюю на ринку вже 5+ років і знаю, як розв'язувати будь-які бізнес-завдання. Реалізую фронтенд і бекенд на React/Vue + FastAPI/Django, професійно працюю з PostgreSQL/MySQL та Redis/MongoDB."
+      "description": "Розробляю веб-застосунки та Telegram-ботів для 100+ компаній. Працюю на ринку вже 5+ років і знаю, як розв'язувати будь-які бізнес-задачі. Реалізую фронтенд і бекенд на React/Vue + FastAPI/Django, професійно працюю з PostgreSQL/MySQL та Redis/MongoDB."
     },
     "devops": {
       "title": "DevOps та автоматизація",
@@ -25,37 +25,37 @@
     "techStack": "Стек:"
   },
   "timeline": {
-    "title": "Кар'єрна історія",
-    "consultant": {
-      "title": "Технологічний консультант",
-      "location": "Даллас, Техас",
-      "date": "2022 - дотепер",
-      "description": "Full-stack веб-розробка, GenAI/LLM, управління проєктами, розвиток бізнесу"
+    "title": "Історія кар'єри",
+    "trainee": {
+      "title": "Trainee Backend Developer",
+      "location": "Львів, Україна",
+      "date": "2019 – 2020",
+      "description": "Розробка REST API, бекенд веб-застосунків, автоматизація збору даних, робота з SQL-базами"
     },
-    "fullstack": {
-      "title": "Full Stack інженер",
-      "location": "Лайє, Гаваї",
-      "date": "2020 - 2022",
-      "description": "Frontend-розробка, Backend-розробка, користувацький досвід, керівництво командою"
+    "junior": {
+      "title": "Junior Backend Developer",
+      "location": "Львів, Україна",
+      "date": "2020 – 2021",
+      "description": "Сервіси на FastAPI/Django, створення комерційних Telegram-ботів, кешування в Redis, робота з Docker"
     },
-    "intern": {
-      "title": "Стажист Staff Engineer",
-      "location": "Лайє, Гаваї",
-      "date": "2021 - 2021",
-      "description": "Full-stack розробка, розробка API, користувацький досвід"
+    "middle": {
+      "title": "Middle Automation & Backend Engineer",
+      "location": "Віддалено, Європа",
+      "date": "2021 – 2024",
+      "description": "Комплексна автоматизація бізнес-процесів, високонавантажений веб-парсинг та обхід захисту, юзерботи, налаштування CI/CD"
     },
-    "analyst": {
-      "title": "Стажист-аналітик даних",
-      "location": "Токіо, Японія",
-      "date": "2020 - 2020",
-      "description": "Автоматизація, управління даними, статистичний аналіз"
+    "lead": {
+      "title": "AI & Automation Solutions Engineer",
+      "location": "Віддалено, Global",
+      "date": "2024 – зараз",
+      "description": "Інтеграція LLM та побудова RAG-систем, Telegram Mini Apps, Full-stack веб-розробка, автономні AI-агенти"
     }
   },
   "projects": {
     "title": "Особисті проєкти",
     "prompty": {
       "title": "Prompty — сайт для вивчення prompt-інжинірингу",
-      "description": "Prompty — це інтерактивний помічник на основі Python, який навчає користувачів писати ефективні, оптимізовані для моделей AI-промпти для завдань програмування, творчості та навчання."
+      "description": "Prompty — це інтерактивний помічник на основі Python, який навчає користувачів писати ефективні, оптимізовані для моделей AI-промпти для задач програмування, творчості та навчання."
     },
     "p2p": {
       "title": "P2P веб-платформа обміну валют",

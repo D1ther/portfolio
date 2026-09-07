@@ -26,35 +26,35 @@
   },
   "timeline": {
     "title": "Career History",
-    "consultant": {
-      "title": "Technology Consultant",
-      "location": "Dallas, TX",
-      "date": "2022 - present",
-      "description": "Full-stack Web Development, GenAI/LLM, Project Management, Business Development"
+    "trainee": {
+      "title": "Trainee Backend Developer",
+      "location": "Lviv, Ukraine",
+      "date": "2019 – 2020",
+      "description": "REST API development, backend web applications, data collection automation, working with SQL databases"
     },
-    "fullstack": {
-      "title": "Full Stack Engineer",
-      "location": "Laie, HI",
-      "date": "2020 - 2022",
-      "description": "Frontend Development, Backend Development, User Experience, Team Leading"
+    "junior": {
+      "title": "Junior Backend Developer",
+      "location": "Lviv, Ukraine",
+      "date": "2020 – 2021",
+      "description": "Services built on FastAPI/Django, commercial Telegram bots, Redis caching, working with Docker"
     },
-    "intern": {
-      "title": "Staff Engineer Intern",
-      "location": "Laie, HI",
-      "date": "2021 - 2021",
-      "description": "Full-stack Development, API Development, User Experience"
+    "middle": {
+      "title": "Middle Automation & Backend Engineer",
+      "location": "Remote, Europe",
+      "date": "2021 – 2024",
+      "description": "End-to-end business process automation, high-volume web parsing with protection bypass, userbots, CI/CD setup"
     },
-    "analyst": {
-      "title": "Data Analyst Intern",
-      "location": "Tokyo, Japan",
-      "date": "2020 - 2020",
-      "description": "Automation, Data Governance, Statistical Analysis"
+    "lead": {
+      "title": "AI & Automation Solutions Engineer",
+      "location": "Remote, Global",
+      "date": "2024 – Present",
+      "description": "LLM integration and RAG system design, Telegram Mini Apps, full-stack web development, autonomous AI agents"
     }
   },
   "projects": {
     "title": "Personal Projects",
     "prompty": {
-      "title": "Prompty - a website for learning prompt engineering",
+      "title": "Prompty — a website for learning prompt engineering",
       "description": "Prompty is a Python-powered interactive assistant that teaches users to write effective, model-optimized AI prompts for coding, creative, and educational tasks."
     },
     "p2p": {

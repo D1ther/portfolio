@@ -26,29 +26,29 @@
   },
   "timeline": {
     "title": "История карьеры",
-    "consultant": {
-      "title": "Технологический консультант",
-      "location": "Даллас, Техас",
-      "date": "2022 - по настоящее время",
-      "description": "Full-stack веб-разработка, GenAI/LLM, управление проектами, развитие бизнеса"
+    "trainee": {
+      "title": "Стажер Backend-разработчик",
+      "location": "Львов, Украина",
+      "date": "2019 – 2020",
+      "description": "Разработка REST API, бэкенд веб-приложений, автоматизация сбора данных, работа с SQL-базами"
     },
-    "fullstack": {
-      "title": "Full Stack инженер",
-      "location": "Лайе, Гавайи",
-      "date": "2020 - 2022",
-      "description": "Frontend-разработка, Backend-разработка, Пользовательский опыт, Руководство командой"
+    "junior": {
+      "title": "Junior Backend-разработчик",
+      "location": "Львов, Украина",
+      "date": "2020 – 2021",
+      "description": "Сервисы на FastAPI/Django, создание коммерческих Telegram-ботов, кеширование в Redis, работа с Docker"
     },
-    "intern": {
-      "title": "Стажер Staff Engineer",
-      "location": "Лайе, Гавайи",
-      "date": "2021 - 2021",
-      "description": "Full-stack разработка, разработка API, пользовательский опыт"
+    "middle": {
+      "title": "Middle Automation & Backend Engineer",
+      "location": "Удаленно, Европа",
+      "date": "2021 – 2024",
+      "description": "Комплексная автоматизация бизнес-процессов, высоконагруженный веб-парсинг и обход защиты, юзерботы, настройка CI/CD"
     },
-    "analyst": {
-      "title": "Стажер аналитик данных",
-      "location": "Токио, Япония",
-      "date": "2020 - 2020",
-      "description": "Автоматизация, управление данными, статистический анализ"
+    "lead": {
+      "title": "AI & Automation Solutions Engineer",
+      "location": "Удаленно, Global",
+      "date": "2024 – по настоящее время",
+      "description": "Интеграция LLM и построение RAG-систем, Telegram Mini Apps, Full-stack веб-разработка, автономные AI-агенты"
     }
   },
   "projects": {
