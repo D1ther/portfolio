@@ -19,6 +19,10 @@
 
 .about-section .content {
     text-align: left;
+    /* z-index only applies to positioned elements: without `position`,
+       the light-mode ::before wave (z-index: 0, positioned) would paint
+       on top of this content. */
+    position: relative;
     z-index: 2;
 
     .social_icons {
@@ -50,6 +54,10 @@
 }
 
 .about-section .image-wrapper {
+    /* Same as .content: without `position`, z-index: 2 is ignored for
+       static elements and the light-mode green wave (::before,
+       z-index: 0, position: absolute) covers the photo on mobile. */
+    position: relative;
     z-index: 2;
     img {
         width: 150px;
@@ -109,12 +117,22 @@
             text-align: left;
         }
 
+        /* Very narrow phones: 4em (70px) makes the name wrap awkwardly
+           and overflow the content width. */
+        @media (max-width: 400px) {
+            .about-section h1 {
+                font-size: 2.8em !important;
+                line-height: 1.15;
+            }
+        }
+
         .about-section p {
             text-align: left;
         }
 
         .container {
-            display: initial;
+            display: block;
+            margin-top: 0;
         }
 
         .social_icons {
